@@ -19,10 +19,6 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
-      - uses: actions/upload-artifact@master
-        with:
-          name: webpack artifacts
-          path: public/
 
   test:
 
